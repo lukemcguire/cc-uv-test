@@ -1,16 +1,28 @@
 def foo(bar: str) -> str:
-    """Summary line.
+    """Tautological Function.
 
-    Extended description of function.
+    Returns whatever string is supplied to it.
 
     Args:
-        bar: Description of input argument.
+        bar: Some string.
 
     Returns:
-        Description of return value
+        Whatever you gave it.
     """
 
     return bar
+
+
+def bar() -> str:
+    """Just returns 'bar'.
+
+    This function takes no variables and returns 'bar'.
+    It's pretty useless.
+
+    Returns:
+        'bar'.  That's it.
+    """
+    return "bar"
 
 
 if __name__ == "__main__":  # pragma: no cover

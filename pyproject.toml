@@ -1,6 +1,6 @@
 [project]
 name = "cc-uv-test"
-version = "0.0.1"
+version = "0.0.3"
 description = "Just messing around with cookiecutter."
 authors = [{ name = "Luke McGuire", email = "luke.mcguire@gmail.com" }]
 readme = "README.md"
