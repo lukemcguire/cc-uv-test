@@ -17,13 +17,13 @@ Just messing around with cookiecutter.
 
 First, create a repository on GitHub with the same name as this project, and then run the following commands:
 
-```bash
+````bash
 git init -b main
 git add .
 git commit -m "init commit"
 git remote add origin git@github.com:lukemcguire/cc-uv-test.git
 git push -u origin main
-```
+```uv r
 
 ### 2. Set Up Your Development Environment
 
@@ -31,7 +31,7 @@ Then, install the environment and the pre-commit hooks with
 
 ```bash
 make install
-```
+````
 
 This will also generate your `uv.lock` file
 
@@ -61,8 +61,6 @@ For activating the automatic documentation with MkDocs, see [here](https://fpgma
 To enable the code coverage reports, see [here](https://fpgmaas.github.io/cookiecutter-uv/features/codecov/).
 
 ## Releasing a new version
-
-
 
 ---
 
